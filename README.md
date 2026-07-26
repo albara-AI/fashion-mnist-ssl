@@ -13,8 +13,6 @@
 | v6 | **Head Sweep + Encoder مجمّد** | **83.66%** ✅ |
 | v7 | Fine-tuning + Ensemble + TTA | ⚠️ (يحتاج مراجعة) |
 
-**التوصية:** استخدم **v6** كنسخة إنتاجية — الأدق والأثبت.
-
 ## البنية
 
 ```
@@ -94,7 +92,7 @@ plots/
 ```
 
 
-## الأداء لكل صنف (v6)
+## الأداء لكل صنف 
 
 | الصنف | Precision | Recall | F1 |
 |-------|:---------:|:------:|:--:|
@@ -118,7 +116,7 @@ plots/
 ├── README.md                        # هذا الملف
 ├── PARAMETERS.md                    # شرح الباراميترات والتعارضات
 ├── .gitignore
-├── ssl_fashion_mnist_v6.py          # 
+├── ssl_fashion_mnist_v6.py          # code
 └── plots/                           # الرسوم 
 ```
 
